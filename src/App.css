@@ -1,0 +1,119 @@
+.App {
+  display: flex;
+  width: 100%;
+  background-color: #cecec570;
+  ;
+}
+
+.ChatWindow {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.ChatList {
+  width: 35%;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.ChatScreen {
+  width: 100%;
+  height: 99vh;
+}
+
+.EmptyChat {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ChatBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ChatTitle {
+  padding: 0% 5%;
+  display: flex;
+  width: 90%;
+  height: 7vh;
+  align-items: center;
+  border-bottom: 1px solid;
+}
+
+.ChatArea {
+  height: 81vh;
+  width: 90%;
+  padding: 2vh 5%;
+  background-color: #cecec570;
+  overflow-y: auto;
+}
+
+.ChatInput {
+  height: 7vh;
+  border-top: 1px solid;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0% 5%;
+}
+
+.Chats {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #87CEFA;
+  padding: 6px;
+  margin: 10px 0px;
+  text-align: right;
+  margin-left: 60%;
+}
+
+.ChatsReply {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: white;
+  padding: 6px;
+  margin: 10px 0px;
+  width: fit-content;
+}
+
+.ChatView {
+  display: flex;
+  flex-direction: column;
+  height: 12vh;
+  padding: 1vh 10px;
+  border-bottom: 1px solid;
+  justify-content: center;
+}
+
+.ChatName {
+  display: flex;
+  font-weight: bold;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ChatDescriptiom {}
+
+.ChatTime {}
+
+.UserProfile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding-right: 10px;
+}
+
+.UserProfile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
